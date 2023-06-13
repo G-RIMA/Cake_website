@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./public/Maria's Cakes Logo.png" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Maria's Cake</title>
+</head>
+<body>
+  <header>
+    <nav class="header__nav">
+      <div class="header__logo">
+        <img src="./public/Maria's Cakes Logo.png" alt="logo">
+        <h4 data-aos="fade-down">Maria's Cakes</h4>
+        <div class="header__logo-overlay"></div>
+      </div>
+      <ul class="header__menu" data-aos="fade-down">
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#cakes">Cakes</a>
+        </li>
+        <li>
+          <a href="#pies">Pies</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#about-us">About Us</a>
+        </li>
+        <li>
+          <img src="./assets/search.svg" alt="search"/>
+        </li>
+      </ul>
+
+      <ul class="header__menu-mobile" data-aos="fade-down">
+        <li>
+          <img src="./assets/menu.svg" alt="menu"/>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-image">
+      <img src="./assets/gemini_cake.png" alt="cake" data-aos="fade-up"/>
+      <div class="hero-image__overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-content-info" data-aos="fade-left">
+        <h1>Feel the taste of Home</h1>
+        <p>Feel the taste of quality home made cakes</p>
+
+        <div class="hero-content__buttons">
+          <button class="hero-content__order-button">Order Now</button>
+          <button class="hero-content__play-button">
+            <img src="./assets/play-circle.svg" alt="play"/>
+            How To Order
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-content__testimonial" data-aos="fade-up">
+        <div class="hero-content__customer flex-center">
+          <h4>24<span>K+</span></h4>
+          <p>Happy Customers</p>
+        </div>
+        <div class="hero-content__review">
+          <img src="./assets/user.png" alt="user">
+          <p>"This is the best cake, simple elegent and delicious.</p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="about-us" id="about-us">
+    <div class="about-us__image">
+      <div class="about-us__image-cake1">
+        <img src="./assets/cake1.jpg" alt="cake" data-aos="fade-right"/>
+      </div>
+
+      <button class="about-us__button">
+        Learn More
+        <img src="./assets/arrow-up-right.svg" alt="learn more"/>
+      </button>
+
+      <div class="about-us__image-cake2">
+        <img src="./assets/cake2.jpg" alt="cake" data-aos="fade-right"/>
+      </div>
+
+    </div>
+
+    <div class="about-us__content" data-aos="fade-left">
+      <p class="cake__subtitle">About Us</p>
+      <h3 class="cake__title">Our mission is to give quality, tasty and affordable cakes
+        to you. And bring you a variety of cakes to you, fast and in a hurry.
+      </h3>
+      <p class="cake__desciption">We continue to provide quality cakes with variety of flavors to our esteemed Customers.
+        We also provide variety of pastries and deserts at your convinience. For any occassion or when you are having a craving,
+        we are here to help, fast and in a hurry.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="popular-foods" id="menu">
+    <h2 class="popular-foods__title" data-aos="flip-up">Popular Cakes & Pastries</h2>
+
+    <div class="popular-foods__filters suchi__hide-scrollbar" data-aos="fade-up">
+      <button
+      class="popular-foods__filter-btn active">All</button>
+      <button class="popular-foods__filter-btn">
+        <img src="./assets/cake3.png" alt="cake3">
+        Cake
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="./assets/cake6.png" alt="cake6">
+        Pie
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="./assets/cake5.png" alt="cake5">
+        Cookies
+      </button>
+      <button class="popular-foods__filter-btn">
+        <img src="./assets/cake4.png" alt="cake4">
+        Donuts
+      </button>
+      <button class="popular-foods__filter-btn">All</button>
+    </div>
+
+    <div class="popular-foods__catalogue" data-aos="fade-up">
+      <article class="popular-foods__card">
+        <img class="popular-foods__card-image" src="assets/cake9.jpg" alt="cake9" />
+        <h4 class="popular-foods__card-title">Chocolate Cake</h4>
+
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+            <img src="assets/star.svg" alt="star" />
+            <p>4.9</p>
+          </div>
+
+          <p class="popular-foods__card-price">Ksh. 2000</p>
+        </div>
+      </article>
+
+      <article class="popular-foods__card active-card">
+        <img class="popular-foods__card-image" src="assets/cake7.jpg" alt="cake7" />
+        <h4 class="popular-foods__card-title">Christmass Cookies</h4>
+        
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+            <img src="assets/star.svg" alt="star" />
+            <p>5.0</p>
+          </div>
+          
+          <p class="popular-foods__card-price">Ksh. 1900</p>
+        </div>
+      </article>
+
+      <article class="popular-foods__card">
+        <img class="popular-foods__card-image" src="assets/cake8.jpg" alt="cake8" />
+        <h4 class="popular-foods__card-title">Berry Pie</h4>
+
+        <div class="popular-foods__card-details flex-between">
+          <div class="popular-foods__card-rating">
+            <img src="assets/star.svg" alt="star" />
+            <p>4.7</p>
+          </div>
+
+          <p class="popular-foods__card-price">Ksh. 1300</p>
+        </div>
+      </article>
+    </div>
+
+    <button class="popular-foods__button">
+      Explore Pastries
+      <img src="assets/arrow-right.svg"  alt="arrow-right" />
+    </button>
+      
+    </div>
+  </section>
+
+  <section class="trending" id="cakes">
+    <section class="trending-cake">
+      <div class="trending__content" data-aos="fade-right">
+        <p class="cake__subtitle">What’s Trending</p>
+
+        <h3 class="cake__title">Cakes
+        </h3>
+        <p class="cake__description">Feel the taste coconut in this scrumptuous cake.
+        </p>
+
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Swiss rolls</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Chocolate cake</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Passion Fruit Cake</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Orange Cake</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="trending__image flex-center">
+        <img src="assets/cake10.jpg" alt="cake10" data-aos="fade-left" />
+
+        <div class="trending__arrow trending__arrow-left">
+          <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+        </div>
+
+        <div class="trending__arrow trending__arrow-bottom">
+          <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+        </div>
+      </div>
+
+    </section>
+
+    <div class="trending__discover" data-aos="zoom-in">
+      <p>Discover</p>
+    </div>
+
+    <section class="trending-pies" id="pies">
+      <div class="trending__image flex-center">
+        <img src="assets/cake11.jpg" alt="cake11" data-aos="fade-right" />
+
+        <div class="trending__arrow trending__arrow-top">
+          <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+        </div>
+
+        <div class="trending__arrow trending__arrow-right">
+          <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+        </div>
+      </div>
+
+      <div class="trending__content" data-aos="fade-left">
+        <p class="cake__subtitle">What’s Trending</p>
+
+        <h3 class="cake__title">Pies
+        </h3>
+        <p class="cake__description">Feel the taste of the most delicious pies here.
+        </p>
+
+        <ul class="trending__list flex-between">
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Cherry Pie</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>
+              Pumkin Pie</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Sweet Potato Pie</p>
+          </li>
+          <li>
+            <div class="trending__icon flex-center">
+              <img src="assets/check.svg" alt="check" />
+            </div>
+            <p>Apple Pie</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </section>
+
+  <section class="subscription flex-center" id="services">
+    <h2 data-aos="flip-down">
+      Get offers straight <br />
+      to your inbox
+    </h2>
+    <p data-aos="fade-up">Sign up for the Maria's Cakes newsletter</p>
+
+    <div class="subscription__form" data-aos="fade-up">
+      <input type="text" placeholder="Enter your email address"/>
+      <button>Get Started</button>
+    </div>
+  </section>
+
+  <footer class="footer flex-between">
+    <h3 class="footer__logo">
+      <span>Maria's</span> Cakes
+    </h3>
+
+    <ul class="footer__nav">
+      <li><a href="#menu" >Menu</a></li>
+      <li><a href="#cakes" >Cakes</a></li>
+      <li><a href="#pies" >Pies</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about-us">About Us</a></li>
+    </ul>
+
+    <ul class="footer__social">
+      <li class="flex-center">
+        <img src="assets/facebook.svg" alt="facebook" />
+      </li>
+      <li class="flex-center">
+        <a href="https://www.instagram.com/maria_iannotta7/">
+        <img src="assets/instagram.svg" alt="instagram" /></a>
+      </li>
+      <li class="flex-center">
+        <img src="assets/twitter.svg" alt="twitter" />
+      </li>
+    </ul>
+  </footer>
+  <script src="./js/script.js" type="module"></script>
+</body>
+</html>
